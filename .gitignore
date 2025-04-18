@@ -1,0 +1,36 @@
+# Evita di salvare ambienti virtuali
+venv/
+.venv/
+
+# File di notebook Jupyter checkpoint
+.ipynb_checkpoints/
+
+# File temporanei/macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Icone specifiche del Finder
+Icon?
+
+# Thumbs.db (Windows)
+Thumbs.db
+
+# Python cache
+__pycache__/
+*.py[cod]
+*$py.class
+
+# File di log
+*.log
+
+# Cartelle nascoste usate da strumenti/editori
+.idea/
+.vscode/
+
+# File di configurazione locali
+.env
+*.env
+
+# Esclude dati temporanei di JupyterLab
+.jupyter/
